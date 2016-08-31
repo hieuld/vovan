@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		160992C69B3F8025866D9567 /* libPods-vovanUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7ED3BDB57BD2474F0F3558 /* libPods-vovanUITests.a */; };
 		571ABB701D76AEDE0055D3FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB6F1D76AEDE0055D3FE /* main.m */; };
 		571ABB731D76AEDE0055D3FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB721D76AEDE0055D3FE /* AppDelegate.m */; };
 		571ABB761D76AEDF0055D3FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB751D76AEDF0055D3FE /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		571ABB7E1D76AEDF0055D3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571ABB7C1D76AEDF0055D3FE /* LaunchScreen.storyboard */; };
 		571ABB891D76AEDF0055D3FE /* vovanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB881D76AEDF0055D3FE /* vovanTests.m */; };
 		571ABB941D76AEDF0055D3FE /* vovanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB931D76AEDF0055D3FE /* vovanUITests.m */; };
+		8634FE49693F10F792666E92 /* libPods-vovan.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C757D561386C05012CD599D9 /* libPods-vovan.a */; };
+		E61053242866C48DCFD47A94 /* libPods-vovanTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 322278C0D43869981953F252 /* libPods-vovanTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		17EDCE8F9BD4E3BD1FE4FBCD /* Pods-vovanTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vovanTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vovanTests/Pods-vovanTests.debug.xcconfig"; sourceTree = "<group>"; };
+		322278C0D43869981953F252 /* libPods-vovanTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vovanTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		554CA9FB8E837F40C9F3B6F1 /* Pods-vovan.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vovan.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vovan/Pods-vovan.debug.xcconfig"; sourceTree = "<group>"; };
 		571ABB6B1D76AEDE0055D3FE /* vovan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vovan.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		571ABB6F1D76AEDE0055D3FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		571ABB711D76AEDE0055D3FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		571ABB8F1D76AEDF0055D3FE /* vovanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vovanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		571ABB931D76AEDF0055D3FE /* vovanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vovanUITests.m; sourceTree = "<group>"; };
 		571ABB951D76AEDF0055D3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A4B303DCDC0126FCD03BE22 /* Pods-vovanTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vovanTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vovanTests/Pods-vovanTests.release.xcconfig"; sourceTree = "<group>"; };
+		7E7ED3BDB57BD2474F0F3558 /* libPods-vovanUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vovanUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C5D31C4815545B03DBA3E53 /* Pods-vovanUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vovanUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vovanUITests/Pods-vovanUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1D399EF955E7B289907A1A8 /* Pods-vovanUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vovanUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vovanUITests/Pods-vovanUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C757D561386C05012CD599D9 /* libPods-vovan.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-vovan.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC592CF78B13A248B9146874 /* Pods-vovan.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vovan.release.xcconfig"; path = "Pods/Target Support Files/Pods-vovan/Pods-vovan.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8634FE49693F10F792666E92 /* libPods-vovan.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61053242866C48DCFD47A94 /* libPods-vovanTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				160992C69B3F8025866D9567 /* libPods-vovanUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				571ABB871D76AEDF0055D3FE /* vovanTests */,
 				571ABB921D76AEDF0055D3FE /* vovanUITests */,
 				571ABB6C1D76AEDE0055D3FE /* Products */,
+				DAC660E6F49694D59430446F /* Pods */,
+				81574329071907D86F9D8A22 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = vovanUITests;
 			sourceTree = "<group>";
 		};
+		81574329071907D86F9D8A22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C757D561386C05012CD599D9 /* libPods-vovan.a */,
+				322278C0D43869981953F252 /* libPods-vovanTests.a */,
+				7E7ED3BDB57BD2474F0F3558 /* libPods-vovanUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAC660E6F49694D59430446F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				554CA9FB8E837F40C9F3B6F1 /* Pods-vovan.debug.xcconfig */,
+				CC592CF78B13A248B9146874 /* Pods-vovan.release.xcconfig */,
+				17EDCE8F9BD4E3BD1FE4FBCD /* Pods-vovanTests.debug.xcconfig */,
+				5A4B303DCDC0126FCD03BE22 /* Pods-vovanTests.release.xcconfig */,
+				C1D399EF955E7B289907A1A8 /* Pods-vovanUITests.debug.xcconfig */,
+				9C5D31C4815545B03DBA3E53 /* Pods-vovanUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 571ABB981D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovan" */;
 			buildPhases = (
+				96FA6DCB4AD74A2B3AE6F3FF /* [CP] Check Pods Manifest.lock */,
 				571ABB671D76AEDE0055D3FE /* Sources */,
 				571ABB681D76AEDE0055D3FE /* Frameworks */,
 				571ABB691D76AEDE0055D3FE /* Resources */,
+				AE4E9F3A423537A17A03B711 /* [CP] Embed Pods Frameworks */,
+				1EE533415C1495F62CDC61EA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 571ABB9B1D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovanTests" */;
 			buildPhases = (
+				F277F300E966EC55F53CE9A8 /* [CP] Check Pods Manifest.lock */,
 				571ABB801D76AEDF0055D3FE /* Sources */,
 				571ABB811D76AEDF0055D3FE /* Frameworks */,
 				571ABB821D76AEDF0055D3FE /* Resources */,
+				A4E2CC0B3771C7C9058A37A7 /* [CP] Embed Pods Frameworks */,
+				1FB825E01FC6AA665096BE76 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 571ABB9E1D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovanUITests" */;
 			buildPhases = (
+				A014E2B7675321AE87DCC2BD /* [CP] Check Pods Manifest.lock */,
 				571ABB8B1D76AEDF0055D3FE /* Sources */,
 				571ABB8C1D76AEDF0055D3FE /* Frameworks */,
 				571ABB8D1D76AEDF0055D3FE /* Resources */,
+				C27439A69E2D04F03A93F1DC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -267,6 +315,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1EE533415C1495F62CDC61EA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vovan/Pods-vovan-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1FB825E01FC6AA665096BE76 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vovanTests/Pods-vovanTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96FA6DCB4AD74A2B3AE6F3FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A014E2B7675321AE87DCC2BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E2CC0B3771C7C9058A37A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vovanTests/Pods-vovanTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE4E9F3A423537A17A03B711 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vovan/Pods-vovan-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C27439A69E2D04F03A93F1DC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vovanUITests/Pods-vovanUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F277F300E966EC55F53CE9A8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		571ABB671D76AEDE0055D3FE /* Sources */ = {
@@ -422,6 +593,7 @@
 		};
 		571ABB991D76AEDF0055D3FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554CA9FB8E837F40C9F3B6F1 /* Pods-vovan.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = vovan/Info.plist;
@@ -433,6 +605,7 @@
 		};
 		571ABB9A1D76AEDF0055D3FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC592CF78B13A248B9146874 /* Pods-vovan.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = vovan/Info.plist;
@@ -444,6 +617,7 @@
 		};
 		571ABB9C1D76AEDF0055D3FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 17EDCE8F9BD4E3BD1FE4FBCD /* Pods-vovanTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = vovanTests/Info.plist;
@@ -456,6 +630,7 @@
 		};
 		571ABB9D1D76AEDF0055D3FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A4B303DCDC0126FCD03BE22 /* Pods-vovanTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = vovanTests/Info.plist;
@@ -468,6 +643,7 @@
 		};
 		571ABB9F1D76AEDF0055D3FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1D399EF955E7B289907A1A8 /* Pods-vovanUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = vovanUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,6 +655,7 @@
 		};
 		571ABBA01D76AEDF0055D3FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9C5D31C4815545B03DBA3E53 /* Pods-vovanUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = vovanUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -507,6 +684,7 @@
 				571ABB9A1D76AEDF0055D3FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		571ABB9B1D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovanTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +693,7 @@
 				571ABB9D1D76AEDF0055D3FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		571ABB9E1D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovanUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +702,7 @@
 				571ABBA01D76AEDF0055D3FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
