@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		571ABB701D76AEDE0055D3FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB6F1D76AEDE0055D3FE /* main.m */; };
+		571ABB731D76AEDE0055D3FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB721D76AEDE0055D3FE /* AppDelegate.m */; };
+		571ABB761D76AEDF0055D3FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB751D76AEDF0055D3FE /* ViewController.m */; };
+		571ABB791D76AEDF0055D3FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571ABB771D76AEDF0055D3FE /* Main.storyboard */; };
+		571ABB7B1D76AEDF0055D3FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 571ABB7A1D76AEDF0055D3FE /* Assets.xcassets */; };
+		571ABB7E1D76AEDF0055D3FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 571ABB7C1D76AEDF0055D3FE /* LaunchScreen.storyboard */; };
+		571ABB891D76AEDF0055D3FE /* vovanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB881D76AEDF0055D3FE /* vovanTests.m */; };
+		571ABB941D76AEDF0055D3FE /* vovanUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 571ABB931D76AEDF0055D3FE /* vovanUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		571ABB851D76AEDF0055D3FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571ABB631D76AEDE0055D3FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571ABB6A1D76AEDE0055D3FE;
+			remoteInfo = vovan;
+		};
+		571ABB901D76AEDF0055D3FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 571ABB631D76AEDE0055D3FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 571ABB6A1D76AEDE0055D3FE;
+			remoteInfo = vovan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		571ABB6B1D76AEDE0055D3FE /* vovan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vovan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		571ABB6F1D76AEDE0055D3FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		571ABB711D76AEDE0055D3FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		571ABB721D76AEDE0055D3FE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		571ABB741D76AEDE0055D3FE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		571ABB751D76AEDF0055D3FE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		571ABB781D76AEDF0055D3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		571ABB7A1D76AEDF0055D3FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		571ABB7D1D76AEDF0055D3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		571ABB7F1D76AEDF0055D3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571ABB841D76AEDF0055D3FE /* vovanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vovanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571ABB881D76AEDF0055D3FE /* vovanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vovanTests.m; sourceTree = "<group>"; };
+		571ABB8A1D76AEDF0055D3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		571ABB8F1D76AEDF0055D3FE /* vovanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vovanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		571ABB931D76AEDF0055D3FE /* vovanUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = vovanUITests.m; sourceTree = "<group>"; };
+		571ABB951D76AEDF0055D3FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		571ABB681D76AEDE0055D3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ABB811D76AEDF0055D3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ABB8C1D76AEDF0055D3FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571ABB621D76AEDE0055D3FE = {
+			isa = PBXGroup;
+			children = (
+				571ABB6D1D76AEDE0055D3FE /* vovan */,
+				571ABB871D76AEDF0055D3FE /* vovanTests */,
+				571ABB921D76AEDF0055D3FE /* vovanUITests */,
+				571ABB6C1D76AEDE0055D3FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		571ABB6C1D76AEDE0055D3FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				571ABB6B1D76AEDE0055D3FE /* vovan.app */,
+				571ABB841D76AEDF0055D3FE /* vovanTests.xctest */,
+				571ABB8F1D76AEDF0055D3FE /* vovanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		571ABB6D1D76AEDE0055D3FE /* vovan */ = {
+			isa = PBXGroup;
+			children = (
+				571ABB711D76AEDE0055D3FE /* AppDelegate.h */,
+				571ABB721D76AEDE0055D3FE /* AppDelegate.m */,
+				571ABB741D76AEDE0055D3FE /* ViewController.h */,
+				571ABB751D76AEDF0055D3FE /* ViewController.m */,
+				571ABB771D76AEDF0055D3FE /* Main.storyboard */,
+				571ABB7A1D76AEDF0055D3FE /* Assets.xcassets */,
+				571ABB7C1D76AEDF0055D3FE /* LaunchScreen.storyboard */,
+				571ABB7F1D76AEDF0055D3FE /* Info.plist */,
+				571ABB6E1D76AEDE0055D3FE /* Supporting Files */,
+			);
+			path = vovan;
+			sourceTree = "<group>";
+		};
+		571ABB6E1D76AEDE0055D3FE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				571ABB6F1D76AEDE0055D3FE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		571ABB871D76AEDF0055D3FE /* vovanTests */ = {
+			isa = PBXGroup;
+			children = (
+				571ABB881D76AEDF0055D3FE /* vovanTests.m */,
+				571ABB8A1D76AEDF0055D3FE /* Info.plist */,
+			);
+			path = vovanTests;
+			sourceTree = "<group>";
+		};
+		571ABB921D76AEDF0055D3FE /* vovanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				571ABB931D76AEDF0055D3FE /* vovanUITests.m */,
+				571ABB951D76AEDF0055D3FE /* Info.plist */,
+			);
+			path = vovanUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		571ABB6A1D76AEDE0055D3FE /* vovan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571ABB981D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovan" */;
+			buildPhases = (
+				571ABB671D76AEDE0055D3FE /* Sources */,
+				571ABB681D76AEDE0055D3FE /* Frameworks */,
+				571ABB691D76AEDE0055D3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vovan;
+			productName = vovan;
+			productReference = 571ABB6B1D76AEDE0055D3FE /* vovan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		571ABB831D76AEDF0055D3FE /* vovanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571ABB9B1D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovanTests" */;
+			buildPhases = (
+				571ABB801D76AEDF0055D3FE /* Sources */,
+				571ABB811D76AEDF0055D3FE /* Frameworks */,
+				571ABB821D76AEDF0055D3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571ABB861D76AEDF0055D3FE /* PBXTargetDependency */,
+			);
+			name = vovanTests;
+			productName = vovanTests;
+			productReference = 571ABB841D76AEDF0055D3FE /* vovanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		571ABB8E1D76AEDF0055D3FE /* vovanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 571ABB9E1D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovanUITests" */;
+			buildPhases = (
+				571ABB8B1D76AEDF0055D3FE /* Sources */,
+				571ABB8C1D76AEDF0055D3FE /* Frameworks */,
+				571ABB8D1D76AEDF0055D3FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				571ABB911D76AEDF0055D3FE /* PBXTargetDependency */,
+			);
+			name = vovanUITests;
+			productName = vovanUITests;
+			productReference = 571ABB8F1D76AEDF0055D3FE /* vovanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		571ABB631D76AEDE0055D3FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Hieu Luong";
+				TargetAttributes = {
+					571ABB6A1D76AEDE0055D3FE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					571ABB831D76AEDF0055D3FE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 571ABB6A1D76AEDE0055D3FE;
+					};
+					571ABB8E1D76AEDF0055D3FE = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 571ABB6A1D76AEDE0055D3FE;
+					};
+				};
+			};
+			buildConfigurationList = 571ABB661D76AEDE0055D3FE /* Build configuration list for PBXProject "vovan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 571ABB621D76AEDE0055D3FE;
+			productRefGroup = 571ABB6C1D76AEDE0055D3FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				571ABB6A1D76AEDE0055D3FE /* vovan */,
+				571ABB831D76AEDF0055D3FE /* vovanTests */,
+				571ABB8E1D76AEDF0055D3FE /* vovanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		571ABB691D76AEDE0055D3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ABB7E1D76AEDF0055D3FE /* LaunchScreen.storyboard in Resources */,
+				571ABB7B1D76AEDF0055D3FE /* Assets.xcassets in Resources */,
+				571ABB791D76AEDF0055D3FE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ABB821D76AEDF0055D3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ABB8D1D76AEDF0055D3FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		571ABB671D76AEDE0055D3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ABB761D76AEDF0055D3FE /* ViewController.m in Sources */,
+				571ABB731D76AEDE0055D3FE /* AppDelegate.m in Sources */,
+				571ABB701D76AEDE0055D3FE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ABB801D76AEDF0055D3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ABB891D76AEDF0055D3FE /* vovanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		571ABB8B1D76AEDF0055D3FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				571ABB941D76AEDF0055D3FE /* vovanUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		571ABB861D76AEDF0055D3FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571ABB6A1D76AEDE0055D3FE /* vovan */;
+			targetProxy = 571ABB851D76AEDF0055D3FE /* PBXContainerItemProxy */;
+		};
+		571ABB911D76AEDF0055D3FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 571ABB6A1D76AEDE0055D3FE /* vovan */;
+			targetProxy = 571ABB901D76AEDF0055D3FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		571ABB771D76AEDF0055D3FE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571ABB781D76AEDF0055D3FE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		571ABB7C1D76AEDF0055D3FE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				571ABB7D1D76AEDF0055D3FE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		571ABB961D76AEDF0055D3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		571ABB971D76AEDF0055D3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		571ABB991D76AEDF0055D3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vovan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vovancompany.vovan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		571ABB9A1D76AEDF0055D3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vovan/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vovancompany.vovan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		571ABB9C1D76AEDF0055D3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vovanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vovancompany.vovanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vovan.app/vovan";
+			};
+			name = Debug;
+		};
+		571ABB9D1D76AEDF0055D3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vovanTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vovancompany.vovanTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vovan.app/vovan";
+			};
+			name = Release;
+		};
+		571ABB9F1D76AEDF0055D3FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vovanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vovancompany.vovanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vovan;
+			};
+			name = Debug;
+		};
+		571ABBA01D76AEDF0055D3FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vovanUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vovancompany.vovanUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vovan;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		571ABB661D76AEDE0055D3FE /* Build configuration list for PBXProject "vovan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571ABB961D76AEDF0055D3FE /* Debug */,
+				571ABB971D76AEDF0055D3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		571ABB981D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571ABB991D76AEDF0055D3FE /* Debug */,
+				571ABB9A1D76AEDF0055D3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		571ABB9B1D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571ABB9C1D76AEDF0055D3FE /* Debug */,
+				571ABB9D1D76AEDF0055D3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		571ABB9E1D76AEDF0055D3FE /* Build configuration list for PBXNativeTarget "vovanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				571ABB9F1D76AEDF0055D3FE /* Debug */,
+				571ABBA01D76AEDF0055D3FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 571ABB631D76AEDE0055D3FE /* Project object */;
+}
