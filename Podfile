@@ -7,6 +7,7 @@ target 'vovan' do
 
   # Pods for vovan
   pod 'ReactiveCocoa', '~> 2.5'
+  pod 'RestKit'
 
   target 'vovanTests' do
     inherit! :search_paths
